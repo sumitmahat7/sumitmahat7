@@ -142,12 +142,14 @@ I don't have professional work experience yet — I'm actively looking for my fi
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sumitmahat7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sumitmahat7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&cache_seconds=86400" width="49%"/>
 <img src="https://streak-stats.demolab.com?user=sumitmahat7&theme=tokyonight&hide_border=true&background=1a1a2e&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitmahat7&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&text_color=C4B5FD" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitmahat7&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&text_color=C4B5FD&cache_seconds=86400" width="49%"/>
 
 </div>
+
+> ⚠️ These widgets call the public `github-readme-stats.vercel.app` service, which gets so much global traffic it frequently times out. It's not specific to your repo — refreshing the page usually fixes it. If it stays broken for more than a day or two, see the self-host note at the bottom of this section.
 
 ---
 
@@ -158,6 +160,8 @@ I don't have professional work experience yet — I'm actively looking for my fi
 <img src="https://github-profile-trophy.vercel.app/?username=sumitmahat7&theme=discord&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%"/>
 
 </div>
+
+> ⚠️ Same issue applies here — `github-profile-trophy.vercel.app` is a shared free instance and goes down under load. **Permanent fix for both:** fork [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) and deploy your own copy to Vercel's free tier (each repo has a "Deploy to Vercel" button in its README) — then swap the domain in your image URLs to your own `*.vercel.app` address. This removes the shared rate limit entirely.
 
 ---
 
@@ -179,7 +183,11 @@ I don't have professional work experience yet — I'm actively looking for my fi
 
 </div>
 
-> ⚙️ Snake animation requires a one-time GitHub Actions workflow (`platane/snk`) set up on your profile repo to generate this SVG.
+> ⚙️ **This one won't work until you set it up** — the URL points to a file (`output/github-contribution-grid-snake-dark.svg`) that a GitHub Action generates, and that Action doesn't exist in your repo yet. Steps:
+> 1. In your `sumitmahat7/sumitmahat7` profile repo, create `.github/workflows/snake.yml`
+> 2. Paste in the standard [platane/snk](https://github.com/Platane/snk) workflow (copy the example from that repo's README — it runs on a schedule, generates the SVG, and pushes it to an `output` branch)
+> 3. Commit it, then either wait for the scheduled run or trigger it manually from the Actions tab
+> 4. Once it runs successfully once, the image above will start working automatically
 
 ---
 
