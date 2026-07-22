@@ -138,28 +138,11 @@ I don't have professional work experience yet — I'm actively looking for my fi
 
 ---
 
-### 🟣 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=sumitmahat7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&cache_seconds=86400" width="49%"/>
-<img src="https://streak-stats.demolab.com?user=sumitmahat7&theme=tokyonight&hide_border=true&background=1a1a2e&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sumitmahat7&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=A78BFA&text_color=C4B5FD&cache_seconds=86400" width="49%"/>
-
-</div>
 
 
 
 ---
 
-### 🟣 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=sumitmahat7&theme=discord&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%"/>
-
-</div>
 
 
 
